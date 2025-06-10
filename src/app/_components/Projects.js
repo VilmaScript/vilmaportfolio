@@ -127,7 +127,7 @@ const Projects = () => {
                 {project.description}
               </p>
               <p className="text-white font-semibold mb-1">Key Features:</p>
-              <ul className="list-disc list-inside marker:text-[#A259FF] space-y-1">
+              <ul className="list-disc list-inside space-y-1">
                 {project.features.map((feature, i) => (
                   <li className="text-sm" key={i}>
                     {feature}

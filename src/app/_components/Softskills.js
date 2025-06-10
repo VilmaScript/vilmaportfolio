@@ -17,9 +17,9 @@ const Softskills = () => {
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="border-b border-gray-50 text-xs sm:text-sm pb-3 text-gray-300 hover:text-white hover:pl-2 transition-all duration-200"
+            className="border-b border-gray-300 text-xs sm:text-sm pb-3 text-gray-300 hover:text-white hover:pl-2 transition-all duration-200"
           >
-            <span className="font-bold text-[#A259FF] mr-2">
+            <span className="font-bold text-white mr-2">
               {String(index + 1).padStart(2, "0")}.
             </span>
             {skill}

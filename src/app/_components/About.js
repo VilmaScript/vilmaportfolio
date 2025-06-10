@@ -11,11 +11,11 @@ const About = () => {
             My Experience 💼
           </h2>
           <div className="bg-surface p-6 rounded-lg shadow-lg mb-6">
-            <p className="text-accent text-xs font-medium">2023 - 2024</p>
+            <p className="text-gray-300 text-xs font-medium">2023 - 2024</p>
             <h4 className="text-white font-bold text-base">Junior Frontend Developer</h4>
             <p className="text-gray-300 text-sm">Pyraglle.LLC</p>
-            <p className="font-medium text-accent my-2">Skills</p>
-            <ul className="list-disc list-inside text-gray-300 text-xs marker:text-accent space-y-1">
+            <p className="font-medium text-white my-2">Skills</p>
+            <ul className="list-disc list-inside text-gray-300 text-xs space-y-1">
               <li>HTML, CSS, JavaScript</li>
               <li>React.js</li>
               <li>Tailwind CSS</li>
@@ -31,12 +31,12 @@ const About = () => {
             My Education 🎓
           </h2>
           <div className="bg-surface p-6 rounded-lg shadow-lg mb-4">
-            <p className="text-accent text-xs font-medium">2018 - 2023</p>
+            <p className="text-gray-300 text-xs font-medium">2018 - 2023</p>
             <h4 className="text-white font-bold text-base">Bachelor of Science in Biochemistry</h4>
             <p className="text-gray-300 text-sm">University of Nigeria</p>
           </div>
           <div className="bg-surface p-6 rounded-lg shadow-lg">
-            <p className="text-accent text-xs font-medium">2022 - 2023</p>
+            <p className="text-gray-300 text-xs font-medium">2022 - 2023</p>
             <h4 className="text-white font-bold text-base">Web Development Course</h4>
             <p className="text-gray-300 text-sm">Udemy</p>
           </div>
