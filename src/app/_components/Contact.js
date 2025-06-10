@@ -25,7 +25,7 @@ const Contact = () => (
             id="name"
             type="text"
             placeholder="Your name"
-            className="w-full px-4 py-3 bg-secondary text-white border border-[#A259FF] rounded-md focus:outline-none focus:ring-2 focus:ring-[#A259FF]"
+            className="w-full px-4 py-3 bg-secondary text-white rounded-md outline-none "
           />
         </div>
 
@@ -37,7 +37,7 @@ const Contact = () => (
             id="email"
             type="email"
             placeholder="your@email.com"
-            className="w-full px-4 py-3 bg-secondary text-white border border-[#A259FF] rounded-md focus:outline-none focus:ring-2 focus:ring-[#A259FF]"
+            className="w-full px-4 py-3 bg-secondary text-white rounded-md "
           />
         </div>
 
@@ -49,7 +49,7 @@ const Contact = () => (
             id="message"
             rows="5"
             placeholder="Write your message..."
-            className="w-full px-4 py-3 bg-secondary text-white border border-[#A259FF] rounded-md focus:outline-none focus:ring-2 focus:ring-[#A259FF]"
+            className="w-full px-4 py-3 bg-secondary text-white rounded-md "
           />
         </div>
 
@@ -60,26 +60,26 @@ const Contact = () => (
       <div className="flex flex-col gap-8">
         {/* Social Card */}
         <div className="bg-secondary rounded-lg p-6 shadow-lg text-sm sm:text-base">
-          <h3 className="text-lg sm:text-xl font-semibold mb-2 text-[#A259FF]">Connect with me:</h3>
+          <h3 className="text-md sm:text-xl font-semibold mb-2 text-white">Connect with me:</h3>
           <ul className="space-y-3">
             <li className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-              <FaEnvelope className="text-[#A259FF]" /> abaravivian20@email.com
+              <FaEnvelope className="text-white" /> abaravivian20@email.com
             </li>
             <li className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-              <FaLinkedin className="text-[#A259FF]" /> linkedin.com/in/abara-vivian
+              <FaLinkedin className="text-white" /> linkedin.com/in/abara-vivian
             </li>
             <li className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-              <FaGithub className="text-[#A259FF]" /> github.com/vilmascript
+              <FaGithub className="text-white" /> github.com/vilmascript
             </li>
             <li className="flex items-center gap-3 text-gray-300 hover:text-white transition">
-              <RiTwitterXFill className="text-[#A259FF]" /> twitter.com/atta_gurl_
+              <RiTwitterXFill className="text-white" /> twitter.com/atta_gurl_
             </li>
           </ul>
         </div>
 
         {/* Looking for Opportunities Card */}
         <div className="bg-secondary rounded-lg p-6 shadow-lg flex flex-col justify-center text-gray-300">
-          <h3 className="text-lg sm:text-xl font-semibold mb-2 text-[#A259FF]">Looking for Opportunities</h3>
+          <h3 className="text-md sm:text-xl font-semibold mb-2 text-white">Looking for Opportunities</h3>
           <p className="text-sm sm:text-base">
             I&apos;m currently exploring new frontend roles where I can contribute to meaningful projects,
             grow as a developer, and work with passionate teams.

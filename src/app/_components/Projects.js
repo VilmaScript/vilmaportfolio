@@ -121,12 +121,12 @@ const Projects = () => {
             {/* Text */}
             <div className="text-gray-300 bg-secondary p-6 rounded-lg">
               <p className="mb-2 text-sm">
-                <span className="text-lg font-medium text-[#A259FF]">
+                <span className="text-lg font-medium text-white">
                   {project.title}:
                 </span>{" "}
                 {project.description}
               </p>
-              <p className="text-[#A259FF] font-semibold mb-1">Key Features:</p>
+              <p className="text-white font-semibold mb-1">Key Features:</p>
               <ul className="list-disc list-inside marker:text-[#A259FF] space-y-1">
                 {project.features.map((feature, i) => (
                   <li className="text-sm" key={i}>
