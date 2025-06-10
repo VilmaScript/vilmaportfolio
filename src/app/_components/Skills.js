@@ -7,14 +7,14 @@ import { RiNextjsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri"
 
 const Skills = () => {
   return (
-    <div className="relative bg-[#1A152D] py-16 overflow-hidden">
+    <div id="skills" className=" relative bg-secondary py-12 overflow-hidden">
 
       {/* CENTERED BLURRED GRADIENT BACKGROUND */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-tr from-[#A259FF] to-[#A259FF] blur-3xl opacity-60 rounded-full z-0" />
 
       {/* HEADER */}
-      <h2 className="text-5xl font-bold text-center text-transparent py-10 bg-clip-text bg-[linear-gradient(to_right,#6f15e6,#FFFFFF,#A259FF)] tracking-wider">
-        Technologies Used🛠
+      <h2 className="text-3xl  sm:text-5xl font-bold text-center text-transparent py-10 bg-clip-text bg-[linear-gradient(to_right,#6f15e6,#FFFFFF,#A259FF)] tracking-wider">
+        Tech Stack🛠
       </h2>
 
 
@@ -73,8 +73,8 @@ const Skills = () => {
               className="bg-[#1F1A36] p-6 rounded-xl shadow-md transition-all duration-300 hover:scale-105 hover:shadow-purple-500/20 hover:shadow-lg"
             >
               {skill.icon}
-              <h3 className="text-xl font-semibold text-white mb-2">{skill.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{skill.desc}</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">{skill.title}</h3>
+              <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">{skill.desc}</p>
             </div>
           ))}
         </div>
