@@ -17,7 +17,7 @@ const projects = [
       "Real-time Cart updates",
     ],
     tech: "React, Next.js, Tailwind CSS, Sanity, Context API, Stripe, Framer Motion",
-    image: "/project1A.PNG",
+    image: "/one.jpg",
   },
   {
     title: "VeeCodes Portfolio",
@@ -30,7 +30,7 @@ const projects = [
       "Built with modern frontend stack",
     ],
     tech: "Next.js, React, Tailwind CSS, Framer Motion",
-    image: "/project4.PNG",
+    image: "/two.jpg",
   },
   {
     title: "ReviewApp",
@@ -43,7 +43,7 @@ const projects = [
       "Review notification system",
     ],
     tech: "React, Tailwind CSS, Supabase",
-    image: "/project2A.PNG",
+    image: "/three.jpg",
   },
   {
     title: "VuseAdmin Dashboard",
@@ -56,7 +56,7 @@ const projects = [
       "Advanced CSS flexbox/grid implementation",
     ],
     tech: "HTML, CSS, JavaScript",
-    image: "/project3.PNG",
+    image: "/four.jpg",
   },
   
 ];
