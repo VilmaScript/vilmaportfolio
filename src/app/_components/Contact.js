@@ -10,7 +10,7 @@ const Contact = () => (
       Let's Work Together 🤝
     </h2>
     <p className="text-center text-gray-300 max-w-2xl mx-auto mb-5 sm:mb-10 text-sm sm:text-base">
-      I'm open to new opportunities and would love to be part of a creative team.
+      I&apos;m open to new opportunities and would love to be part of a creative team.
       If you have something in mind or just want to connect, feel free to reach out!
     </p>
 
@@ -81,7 +81,7 @@ const Contact = () => (
         <div className="bg-secondary rounded-lg p-6 shadow-lg flex flex-col justify-center text-gray-300">
           <h3 className="text-lg sm:text-xl font-semibold mb-2 text-[#A259FF]">Looking for Opportunities</h3>
           <p className="text-sm sm:text-base">
-            I'm currently exploring new frontend roles where I can contribute to meaningful projects,
+            I&apos;m currently exploring new frontend roles where I can contribute to meaningful projects,
             grow as a developer, and work with passionate teams.
           </p>
         </div>

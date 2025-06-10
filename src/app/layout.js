@@ -1,10 +1,6 @@
 import {  Geist_Mono, Montserrat, Quicksand } from "next/font/google";
 import "./globals.css";
 
-const quickSand = Quicksand({
-  variable: "--font-quicksand",
-  subsets: ["latin"],
-});
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
