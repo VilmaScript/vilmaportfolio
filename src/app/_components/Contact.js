@@ -7,7 +7,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 const Contact = () => (
   <div id="contact" className="py-12 px-8 md:px-28 bg-primary text-white">
     <h2 className="text-xl sm:text-3xl font-bold text-center text-transparent py-2 bg-clip-text bg-[linear-gradient(to_right,#6f15e6,#FFFFFF,#A259FF)] tracking-wider">
-      Let's Work Together 🤝
+      Let&apos;s Work Together 🤝
     </h2>
     <p className="text-center text-gray-300 max-w-2xl mx-auto mb-5 sm:mb-10 text-sm sm:text-base">
       I&apos;m open to new opportunities and would love to be part of a creative team.
