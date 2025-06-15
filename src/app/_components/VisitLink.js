@@ -2,7 +2,7 @@
 import { useTime, useTransform, motion, } from "framer-motion";
 
 
-const VisitLink = () => {
+const VisitLink = ({projectLink}) => {
     const time = useTime()
     const rotate = useTransform(time, [0, 2000], [0, 360], {
         clamp: false,
@@ -11,7 +11,7 @@ const VisitLink = () => {
 
     return (
         <div className="relative inline-block group  ">
-            <a href="https://glitzinteriors.vercel.app/" target="_blank" rel="noopener noreferrer"  className="relative px-7 py-1.5 rounded-full cursor-pointer text-sm sm:text-base bg-primary z-10">Visit Project</a>
+            <a href={projectLink} target="_blank" rel="noopener noreferrer"  className="relative px-7 py-1.5 rounded-full cursor-pointer text-sm sm:text-base bg-primary z-10">Visit Project</a>
 
             <motion.div className="absolute -inset-[6px] rounded-full "
                 style={{

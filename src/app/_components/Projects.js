@@ -18,6 +18,8 @@ const projects = [
     ],
     tech: "React, Next.js, Tailwind CSS, Sanity, Context API, Stripe, Framer Motion",
     image: "/one.jpg",
+    link: "https://glitzinteriors.vercel.app/",
+    git:"https://github.com/VilmaScript/glitzcloset.git"
   },
   {
     title: "VeeCodes Portfolio",
@@ -31,6 +33,8 @@ const projects = [
     ],
     tech: "Next.js, React, Tailwind CSS, Framer Motion",
     image: "/two.jpg",
+    link: "https://vilmaportfolio.vercel.app/",
+    git:"https://github.com/VilmaScript/vilmaportfolio.git"
   },
   {
     title: "ReviewApp",
@@ -44,6 +48,8 @@ const projects = [
     ],
     tech: "React, Tailwind CSS, Supabase",
     image: "/three.jpg",
+    link: "https://rating-and-review.netlify.app/",
+    git:"https://github.com/VilmaScript/ReviewApp.git"
   },
   {
     title: "VuseAdmin Dashboard",
@@ -57,6 +63,8 @@ const projects = [
     ],
     tech: "HTML, CSS, JavaScript",
     image: "/four.jpg",
+    link: "https://vilmascript.github.io/MyDashboard/",
+    git:"https://github.com/VilmaScript/MyDashboard.git"
   },
   
 ];
@@ -141,9 +149,9 @@ const Projects = () => {
                 </span>
               </p>
               <div className="my-6 flex items-center space-x-6">
-                <VisitLink />
+                <VisitLink projectLink={project.link} />
                 <a
-                  href="#"
+                  href={project.git}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-yellow-300 hover:underline flex items-center gap-2"
