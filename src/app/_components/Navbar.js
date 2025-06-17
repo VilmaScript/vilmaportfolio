@@ -83,7 +83,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
 <div
-  className={`fixed top-0 left-0 w-full h-full bg-surface  z-50 transform transition-transform duration-300 ${
+  className={`sm:hidden fixed top-0 left-0 w-full h-full bg-surface  z-50 transform transition-transform duration-300 ${
     isOpen ? "translate-x-0" : "-translate-x-full"
   } `}
   aria-hidden={!isOpen}

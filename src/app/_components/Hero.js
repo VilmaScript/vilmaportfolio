@@ -30,21 +30,21 @@ const Hero = () => {
           <p className="text-base sm:text-lg text-gray-200">
             I specialize in building modern front-end experiences using clean, scalable code and intuitive design. From pixel-perfect UI to performance optimization, I focus on creating seamless user experiences that work across devices and platforms.
           </p>
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
             <Button text="Download Cv" />
             <ul className="flex space-x-6 text-white text-xl">
               <li className="hover:scale-110 transition-transform duration-300">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/vilmascript" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                 </a>
               </li>
               <li className="hover:scale-110 transition-transform duration-300">
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/abara-vivian" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                 </a>
               </li>
               <li className="hover:scale-110 transition-transform duration-300">
-                <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/atta_gurl_" target="_blank" rel="noopener noreferrer">
                   <RiTwitterXFill />
                 </a>
               </li>
