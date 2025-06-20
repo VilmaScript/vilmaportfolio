@@ -97,10 +97,8 @@ const Contact = () => {
           </div>
 
           {/* Custom Button with Spinner */}
-          <Button text={loading ? "Sending..." : "Send Message"}>
-            {loading && (
-              <span className="ml-2 animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></span>
-            )}
+          <Button> 
+           {loading ? "Sending..." : "Send Message"}
           </Button>
         </form>
 

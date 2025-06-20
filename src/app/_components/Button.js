@@ -1,7 +1,7 @@
 "use client";
 import { useTime, useTransform, motion } from "framer-motion";
 
-const Button = ({ text}) => {
+const Button = ({ children}) => {
   const time = useTime();
   const rotate = useTransform(time, [0, 2000], [0, 360], {
     clamp: false,
@@ -11,7 +11,7 @@ const Button = ({ text}) => {
   return (
     <div className="relative inline-block group ">
       <button className="relative px-7 py-1.5 rounded-full cursor-pointer text-sm sm:text-base bg-primary z-10">
-        {text}
+        {children}
       </button>
 
       <motion.div

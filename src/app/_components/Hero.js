@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section id="home" className="py-12 px-8 md:p-28 bg-primary">
       <div className="max-w-screen-xl mx-auto flex flex-col sm:grid sm:grid-cols-12 gap-10 items-center">
-        
+
         {/* Mobile Image */}
         <div className="sm:hidden relative">
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/4 w-32 h-32 bg-gradient-to-tr from-[#A259FF] to-[#A259FF] blur-2xl opacity-60 rounded-full z-0" />
@@ -31,7 +31,15 @@ const Hero = () => {
             I specialize in building modern front-end experiences using clean, scalable code and intuitive design. From pixel-perfect UI to performance optimization, I focus on creating seamless user experiences that work across devices and platforms.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-            <Button text="Download Cv" />
+            <Button>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Cv
+              </a>
+            </Button>
             <ul className="flex space-x-6 text-white text-xl">
               <li className="hover:scale-110 transition-transform duration-300">
                 <a href="https://github.com/vilmascript" target="_blank" rel="noopener noreferrer">
